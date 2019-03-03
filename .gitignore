@@ -1,3 +1,4 @@
 
 django_demos/.idea
 *.pyc
+django_demos/venv
