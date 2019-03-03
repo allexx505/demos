@@ -1,4 +1,3 @@
 
-django_demos/.idea
+*/.idea
 *.pyc
-django_demos/venv
