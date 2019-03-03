@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+{% load static  %}
 <head>
     <meta charset="UTF-8">
-    <title>django_test</title>
-    <link href = "../statics/index-style.css" rel = "stylesheet">
+    <title>{{index_title}}</title>
+    <link href = "{%static 'index-style.css'%}" rel = "stylesheet" type="text/css">
 </head>
 <body>
     <h1>django框架测试</h1>
-    <h2><p>
+    <h2>
         欢迎来到django框架测试网页
-    </p></h2>
+    </h2>
+    <h1>{{ request.user }}</h1>
+    <ol>
+    {% for word in word_list %}
+        {% for word in word_list %}
+        <li>{{ forloop.counter0 }}---{{ word }}</li>
+        {% endfor %}
+    {% endfor %}
+    </ol>
 </body>
 </html>
