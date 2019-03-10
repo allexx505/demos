@@ -16,6 +16,8 @@
     {% for word in word_list %}
         {% for word in word_list %}
         <li>{{ forloop.counter0 }}---{{ word }}</li>
+            <h2>{{ word.subtitle }}</h2>
+            <h2>{{ word.link }}</h2>
         {% endfor %}
     {% endfor %}
     </ol>
