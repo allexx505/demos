@@ -1,4 +1,4 @@
-# <center>**demos**</center>
+# **demos from Alex Tan**
 ## 1.scripts
    + some scripts from alex tan
 ## 2.django_demos
