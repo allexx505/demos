@@ -58,6 +58,17 @@ def change_str_to_timeStamp(str, format):
     print(timeStamp)
     return timeStamp
 
+def test_in_func():
+    print(abcd)
+
 if __name__ == '__main__':
-    change_str_to_timeStamp('2019-01-02', '%Y-%m-%d')
+    # a = change_str_to_timeStamp('2019-12-12', '%Y-%m-%d')
+    # b = change_str_to_timeStamp('2019-10-12', '%Y-%m-%d')
+    # print(b-a)
+    # import request
+    # a = {'cn':{1:2,3:4,5:6},'oversea':{1:2,3:4,5:6}}
+    # del a['cn'][1]
+    # print(a)
+    abcd = '11111'
+    test_in_func()
 
